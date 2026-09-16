@@ -25,8 +25,8 @@ today). For example:*
 **Stay strictly in the problem space.** Do not mention or hint at a solution
 anywhere in this file. Solutioning happens in Unit 2, as a team.
 
-1.
-2.
+1. Beginner-to-intermediate half-marathon/marathon runners without a coach struggle to find training plans that adapt to their individual body and progress — generic or overly aggressive plans (anecdotally, apps like Runna) push volume/intensity that risks injury rather than adjusting to the runner.
+2. These same runners also need strength, mobility, and injury-prevention work alongside their running plan, but today have to seek that out separately, with nothing guiding how the two should fit together.
 3.
 
 <!-- ...keep going to at least 20. -->
