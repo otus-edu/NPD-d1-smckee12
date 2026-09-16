@@ -1,0 +1,54 @@
+# Pitch outline — &lt;student&gt;
+
+<!-- D1c content draft. ≤6 slides AND ≤2 minutes total (incl. any mixed media).
+Draft the content here; build the deck however you like and paste its link in
+submission.md. This draft is required regardless of how you render the deck. -->
+
+## The case
+
+*Three things, in whatever form and order serves your problem best. Not a formal
+"problem statement" — just be clear about each.*
+
+- **The problem** — what's broken, stated as your customer's problem (not as the
+  absence of a product).
+- **Whom** — a specific segment, not "everyone who…".
+- **Why it matters now** — what actually changed: technology, cost, regulation,
+  behaviour. This is a claim that could be wrong. If nothing changed, ask
+  yourself why nobody has solved this already.
+
+> **Do not name a solution.** This is discovery. A pitch that arrives at "so I'll
+> build an app that…" has skipped the part being assessed. If you find yourself
+> listing features, you've stopped describing an opportunity.
+
+## Your slides
+
+*There is deliberately **no** prescribed slide order here.* Six slides is a hard
+cap, two minutes is a hard cap — what goes in them is your call, and choosing
+well is part of what's being assessed.
+
+Pick what is genuinely most compelling **for your problem**:
+
+- If your problem is **intuitive** — one the room will recognise instantly —
+  everyone will nod, and then forget it. You need **quantitative backing** to make
+  it interesting: how big, how often, how expensive, how many people.
+- If your problem is **niche** — one nobody in the room has personally met — no
+  amount of sizing will land it cold. You need **storytelling** to engender
+  empathy first: a person, a moment, what it actually costs them.
+
+Most problems sit somewhere between. Decide where yours sits, then spend your six
+slides accordingly.
+
+Two minutes is not a lot of time. Of everything you compiled across D1a and D1b, what
+earns a place on a slide? What is the one or two things you want the room to take away,
+and where is the a-ha moment? What would a sceptic push back on?
+
+<!-- Sketch your slides below, however many you need up to 6. -->
+
+### Slide 1 —
+*...*
+
+### Slide 2 —
+*...*
+
+<!-- Keep it to ≤6 slides and ≤2 minutes. Note your media mix (live slides,
+embedded video, etc.) here if relevant. -->

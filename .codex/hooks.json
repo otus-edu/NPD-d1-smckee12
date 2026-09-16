@@ -1,0 +1,17 @@
+{
+  "description": "OTUS transcript capture hook for Codex sessions.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$(git rev-parse --show-toplevel)/.otus/capture-codex.mjs\"",
+            "timeout": 30,
+            "statusMessage": "Sending OTUS transcript capture"
+          }
+        ]
+      }
+    ]
+  }
+}

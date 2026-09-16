@@ -1,0 +1,249 @@
+{
+  "title": "Individual Discovery",
+  "skills": [
+    {
+      "blurb": "Choose an ordered work item, then work through its questions and artifact with your agent.",
+      "command": "/otus-instructions"
+    },
+    {
+      "blurb": "Review the capture disclosure, then check identity, push access, hook wiring, and capture.",
+      "command": "/otus-verify-connection"
+    },
+    {
+      "blurb": "Check every work item, then choose an unfinished one by number, ID, or title to continue.",
+      "command": "/otus-status"
+    },
+    {
+      "blurb": "Commit and push what you have, record the session's decisions, and confirm it is safe to close.",
+      "command": "/otus-session-wrap"
+    },
+    {
+      "blurb": "Check every work item, push the commit and submission tag, then confirm the receipt in OTUS.",
+      "command": "/otus-submit"
+    }
+  ],
+  "prereqs": [
+    "github",
+    "repo",
+    "capture"
+  ],
+  "version": "d1-v4",
+  "since_tag": "repo-root",
+  "components": [
+    {
+      "id": "D1a",
+      "path": "problem-finding.md",
+      "label": "Problem Finding & Vetting",
+      "notes": "One markdown file with TWO sub-sections: (1) Problem finding — a list of 20+ problem areas, each naming a customer and their needs/pain points, no solutions; (2) Problem vetting — a structured framework applied to that list, producing one top problem. Restored 2026-08-26 (cs50g07b) from the 2025F deliverable doc, where it was D1a PROBLEM FINDING; it had been stripped out of the 2026F rebuild. Its output is a SOFT prerequisite for D1b and D1c: the coaching orders it first and every downstream item's questions confirm the chosen problem, but nothing blocks a student who works ahead. Detection stays file-level; quality of the framework is the instructor's call at grading.",
+      "detect": "file_nonempty",
+      "required": true
+    },
+    {
+      "id": "D1b",
+      "path": "opportunity-brief.md",
+      "label": "Opportunity Recognition",
+      "notes": "One markdown narrative with THREE sub-sections: (1) JTBD analysis, (2) Customer insights (starts with a real interview; synthesis from the transcript, with quotes), (3) Market sizing (light TAM/SAM). Was D1a until 2026-08-26, when Problem Finding & Vetting was restored ahead of it and took the D1a slot (cs50g07b). Renamed from 'Opportunity Brief' and reduced from four sections on 2026-08-13 (cn80tkzn): the former section (1) 'Problem Statement & Opportunity' moved to the pitch, because problem/whom/why is what a pitch is made of. D1b is the ANALYSIS; D1c is the ARGUMENT. The sub-sections are headings within this one file (format truth), so detection stays file-level.",
+      "detect": "file_nonempty",
+      "required": true
+    },
+    {
+      "id": "D1c-outline",
+      "path": "pitch/outline.md",
+      "label": "Pitch — the case + content draft",
+      "notes": "The in-repo content draft of the pitch (render-agnostic). Required regardless of how the final deck is rendered - keeps the substance observed (handoff 4.3 guardrail). As of 2026-08-13 this ALSO carries the case itself - problem, whom, why now, received from the analysis - stated as components rather than a formal 'problem statement', with no solution named. This is where `opportunity_recommendation_structure` is primarily assessed. Deliberately NO slide-by-slide guidance: a prescribed order produces identical decks and a boring presentation day; choosing what to lead with (quantitative backing for an intuitive problem, storytelling for a niche one) is part of the assessed judgment. Was D1b until the 2026-08-26 renumber.",
+      "detect": "file_nonempty",
+      "required": true
+    },
+    {
+      "id": "D1c-deck",
+      "path": "submission.md",
+      "label": "Pitch deck / presentation link",
+      "notes": "<=6 slides AND <=2 min total incl. mixed media - both hard caps, with NO prescribed slide order (2026-08-13); student choice on media mix (Google Slides, deployed reveal.js/Marp, or a recording). The link is pasted in submission.md. link_kind:presentation = any hosted presentation link — ratified 2026-06-24 as an addition to the link_kind vocabulary (contract §3.2).",
+      "detect": "link_in_file",
+      "required": true,
+      "link_kind": "presentation"
+    },
+    {
+      "id": "submission",
+      "tag": "d1-submitted",
+      "label": "Milestone tag",
+      "detect": "tag_exists",
+      "required": true
+    }
+  ],
+  "is_fixture": false,
+  "submission": "tag",
+  "work_items": [
+    {
+      "id": "D1a-1",
+      "path": "problem-finding.md",
+      "coach": {
+        "mode": "guided_draft",
+        "questions": [
+          "What problem areas have you noticed in your own everyday life, or in products you would like to correct or disrupt?",
+          "What have friends, family or former colleagues complained about recently?",
+          "Which broad shifts — technological, economic, sociocultural, sociopolitical — are opening gaps nobody has filled yet?",
+          "For each line: who is the prospective customer, and what is their need or pain point? A problem area with no customer named is not yet on the list.",
+          "Have you got to twenty? If the list is stalling, switch approach — bottoms-up (your own pain points) and top-down (broad shifts) surface different problems."
+        ]
+      },
+      "title": "Problem Finding",
+      "sections": [
+        "Problem finding"
+      ],
+      "complete_when": [
+        "At least 20 problem areas are listed.",
+        "Each line names a prospective customer along with their needs and/or pain points.",
+        "No solution is named or hinted at anywhere in the list.",
+        "The list is the student's own work rather than the shipped prompt."
+      ]
+    },
+    {
+      "id": "D1a-2",
+      "path": "problem-finding.md",
+      "coach": {
+        "mode": "guided_draft",
+        "questions": [
+          "What criteria are you assessing these problems against, and why those?",
+          "What scale are you using — high/medium/low, 1-5, something else?",
+          "For viability, what is your intended customer's willingness to pay to have the problem solved? Assess the problem, not an assumed solution.",
+          "For feasibility, what is the nature of the problem? Problems that are societal, systemic, or physically hard are inherently low-feasibility, and that is worth saying.",
+          "Which problem came out on top, and if there was a tie, how did you break it?"
+        ]
+      },
+      "title": "Problem Vetting",
+      "sections": [
+        "Problem vetting"
+      ],
+      "complete_when": [
+        "A structured framework is applied to the list, with the criteria and scale stated.",
+        "One top problem is named as the one being carried forward.",
+        "The rationale for that choice is visible, including how any tie was broken.",
+        "The section is the student's own work rather than the shipped prompt."
+      ]
+    },
+    {
+      "id": "D1b-1",
+      "path": "opportunity-brief.md",
+      "coach": {
+        "mode": "guided_draft",
+        "questions": [
+          "Which problem did you pick in D1a-2? This analysis runs on that problem — confirm it before you start.",
+          "Who is the customer you have in mind, specifically enough that you could name someone who fits?",
+          "What outcome are they trying to reach — stated as a job they want done, not a feature they would use?",
+          "What do they do about it today, and where does that break down?",
+          "Which of the functional, emotional, or social dimensions materially change the picture here, and how? Skip any that do not earn their place."
+        ]
+      },
+      "title": "JTBD Analysis",
+      "sections": [
+        "Jobs To Be Done"
+      ],
+      "complete_when": [
+        "The analysis is explicitly about the problem selected in D1a-2.",
+        "The primary job is stated as an outcome the customer wants rather than a solution or feature.",
+        "The dimensions that materially matter (functional, emotional, or social) are covered, with no requirement to run through all three.",
+        "The section is the student's own prose rather than the shipped prompt."
+      ]
+    },
+    {
+      "id": "D1b-2",
+      "path": "opportunity-brief.md",
+      "coach": {
+        "mode": "guided_draft",
+        "questions": [
+          "Have you run the interview yet? This section starts with a real conversation — there is nothing to synthesize before that.",
+          "Who did you talk to, and what is their relationship to the problem you selected in D1a-2?",
+          "Where are your notes or transcript? The synthesis is done from the real record of the conversation, not from memory.",
+          "What did you actually hear that you did not expect going in?",
+          "Which quote carries the most weight, and who said it — their words, not a paraphrase?"
+        ]
+      },
+      "title": "Customer Insights",
+      "sections": [
+        "Customer insights"
+      ],
+      "complete_when": [
+        "A real interview has been conducted, and the notes or transcript are kept in the repo as supporting material.",
+        "The synthesis is drawn from that transcript rather than from recollection.",
+        "At least one direct quote is included and attributed.",
+        "The section is the student's own prose rather than the shipped prompt."
+      ]
+    },
+    {
+      "id": "D1b-3",
+      "path": "opportunity-brief.md",
+      "coach": {
+        "mode": "guided_draft",
+        "questions": [
+          "How many potential customers are there, and how did you arrive at that count?",
+          "What would they plausibly pay, and on what basis?",
+          "Is this an established market or an emergent one? For an established market you can anchor to current revenue; for an emergent one you are projecting, and the assumptions carry the weight.",
+          "Which segment of that total could realistically be served — the SAM — and why that boundary?",
+          "Where did each figure come from? Name the source, or say it is a first-principles estimate."
+        ]
+      },
+      "title": "Market Sizing",
+      "sections": [
+        "Market sizing"
+      ],
+      "complete_when": [
+        "A light TAM and SAM estimate are both present.",
+        "The reasoning behind the numbers is visible, not just the final figures.",
+        "Sources or first-principles assumptions are named for the figures used."
+      ]
+    },
+    {
+      "id": "D1c-1",
+      "path": "pitch/outline.md",
+      "coach": {
+        "mode": "guided_draft",
+        "questions": [
+          "Stated as your customer's problem rather than the absence of a product, what is broken?",
+          "Whom is it for — a specific segment, not 'everyone who...'?",
+          "Why now: what has actually changed in technology, cost, regulation, or behaviour?",
+          "Which parts of this are carried over from your D1b analysis, and which are new claims?"
+        ]
+      },
+      "title": "The Case",
+      "sections": [
+        "The case"
+      ],
+      "complete_when": [
+        "The problem is stated as the customer's problem.",
+        "A specific segment is named for whom it is.",
+        "A why-now claim naming what changed is present.",
+        "No solution or feature list is named."
+      ]
+    },
+    {
+      "id": "D1c-2",
+      "path": "pitch/outline.md",
+      "coach": {
+        "mode": "guided_draft",
+        "questions": [
+          "Is your problem closer to intuitive (the room recognises it instantly) or niche (nobody has met it)? Where between the two does yours sit?",
+          "Given that, does your pitch lead with quantitative backing or with a story — and why that choice for this problem?",
+          "CONCISE: two minutes is not a lot of time. Of everything you compiled across D1a and D1b, what earns a place on a slide, and what gets cut?",
+          "COMPELLING: what is the one or two things you want your classmates to take away? Where is the a-ha moment in your two minutes?",
+          "CONVINCING: which qualitative or quantitative evidence best makes your case, and what would a sceptic in the room push back on?",
+          "What goes on each slide, up to six? Sketch them in order.",
+          "What medium are you building in (Google Slides, a deployed reveal.js or Marp deck, or a recording), and what is the link once it exists?"
+        ]
+      },
+      "title": "Your Slides",
+      "sections": [
+        "Your slides"
+      ],
+      "complete_when": [
+        "A slide sketch of no more than six slides is present in pitch/outline.md.",
+        "The plan is shaped for this problem rather than a generic template.",
+        "A real presentation link is pasted into the Presentation line of submission.md."
+      ]
+    }
+  ],
+  "deliverable": "D1",
+  "repo_template": "d1-<student>",
+  "submission_tag": "d1-submitted",
+  "_completion_model_note": "Two completion vocabularies coexist here on purpose, with different consumers. components[].detect is machine-checkable PRESENCE (file_nonempty, glob_nonempty, tag_exists, link_in_file), evaluated server-side by OTUS's completeness check — it answers 'does the artifact exist'. work_items[].complete_when is prose EVIDENCE read in-repo by /otus-status and /otus-instructions, per work item — it answers 'is this particular piece of thinking actually done'. They sit at different granularity (one file can carry several work items) and neither can replace the other: a detector cannot tell a filled-in section from the shipped prompt, and prose criteria are not evaluable outside an agent. Neither is a quality rubric; quality is the instructor's call at grading."
+}

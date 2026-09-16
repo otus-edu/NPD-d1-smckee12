@@ -1,0 +1,52 @@
+# Problem Finding & Vetting — &lt;student&gt;
+
+<!-- D1a. Replace each prompt below with your work. This whole file is yours to
+edit. Both sections are required.
+
+This is where D1 starts. The problem you land on at the end of section 2 is the
+problem the rest of the deliverable runs on — the JTBD analysis, the interview,
+the market sizing, and the pitch all follow from it. -->
+
+## 1. Problem finding
+
+*A list of at least 20 problem areas or unmet market needs. One line each. Any
+format you like — the list below, a table, a linked spreadsheet.*
+
+*Each line should name the prospective customer(s) along with their needs
+(motivations, wishes) and/or pain points (barriers, deficiencies in what they use
+today). For example:*
+
+> *"Teens and young adults historically do not engage with the healthcare system,
+> but can benefit from preventative care and wellness."*
+
+> *"Seniors lack autonomy and independence in their healthcare management and
+> decision-making, while giving their adult children peace of mind."*
+
+**Stay strictly in the problem space.** Do not mention or hint at a solution
+anywhere in this file. Solutioning happens in Unit 2, as a team.
+
+1.
+2.
+3.
+
+<!-- ...keep going to at least 20. -->
+
+## 2. Problem vetting
+
+*Your framework for assessing the list, and the top problem it produced.*
+
+*Vet each problem area against some sort of structured framework, then say which
+problem you are proceeding with and why. A common approach is a matrix scoring
+viability, feasibility and desirability — but the criteria and the scale (high /
+medium / low, 1–5, anything else) are your call, and choosing them well is part
+of the work.*
+
+| Problem area | *criterion* | *criterion* | *criterion* | Notes |
+|---|---|---|---|---|
+|  |  |  |  |  |
+
+**Top problem:** *the one you are proceeding with*
+
+**Why this one:** *what the assessment showed. If your matrix produced a tie, say
+how you broke it — perceived likelihood of success, personal interest, project
+feasibility, market size, or any other rationale you find sensible.*

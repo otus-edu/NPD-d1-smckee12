@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+
+# secrets — never commit
+.env
+.env.*
+token.json
+client_secret*.json
+.otus/capture-token
+.otus/capture-device
+.otus/capture-declined
+.otus/capture-status.json

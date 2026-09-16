@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh .otus/capture-check.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh .otus/capture.sh"
+          },
+          {
+            "type": "command",
+            "command": "sh .otus/autosave.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
