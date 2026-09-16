@@ -28,7 +28,8 @@ anywhere in this file. Solutioning happens in Unit 2, as a team.
 1. Beginner-to-intermediate half-marathon/marathon runners without a coach struggle to find training plans that adapt to their individual body and progress — generic or overly aggressive plans (anecdotally, apps like Runna) push volume/intensity that risks injury rather than adjusting to the runner.
 2. These same runners also need strength, mobility, and injury-prevention work alongside their running plan, but today have to seek that out separately, with nothing guiding how the two should fit together.
 3. Cyclists whose bikes are stolen have very limited means of recovering them — beyond a physical lock deterring theft in the first place, there's little to help locate or recover a bike once it's gone, especially in high-theft areas like Berkeley, CA.
-4.
+4. Active people increasingly want to reduce their plastic/synthetic consumption, but most performance apparel (moisture-wicking, stretch, etc.) is made from synthetic fibers, leaving them without options that meet both their performance needs and this preference.
+5.
 
 <!-- ...keep going to at least 20. -->
 
