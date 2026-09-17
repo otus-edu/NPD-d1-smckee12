@@ -33,7 +33,9 @@ anywhere in this file. Solutioning happens in Unit 2, as a team.
 6. Employees booking corporate travel face a clunky, dated booking experience — far worse than consumer tools like Google Flights — because the software is built around compliance and administrative requirements rather than the traveler's experience.
 7. Movie watchers and music listeners increasingly want permanent ownership of content, but streaming's rotating catalogs and subscription model leave them without a way to reliably keep access to what they love.
 8. Clothing shoppers who want to branch out beyond brands they already know (e.g. J. Crew) feel overwhelmed by the sheer number of options available, and lack a good starting point for discovering new brands that fit their taste.
-9.
+9. People who see a celebrity/influencer outfit online want to identify the specific pieces or find affordable equivalents, but have no easy way to do so, often left guessing or scrolling comments for "who makes this."
+10. People who see a celebrity/influencer outfit online and don't know how to style similar pieces themselves lack guidance on recreating the overall look, not just sourcing the individual items.
+11.
 
 <!-- ...keep going to at least 20. -->
 
