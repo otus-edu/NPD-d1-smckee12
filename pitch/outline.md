@@ -52,13 +52,32 @@ Two minutes is not a lot of time. Of everything you compiled across D1a and D1b,
 earns a place on a slide? What is the one or two things you want the room to take away,
 and where is the a-ha moment? What would a sceptic push back on?
 
-<!-- Sketch your slides below, however many you need up to 6. -->
+Problem sits closer to **niche** — the room hasn't personally hit this failure
+mode, so slides lead with story before backing it with growth data. Building
+in Google Slides.
 
-### Slide 1 —
-*...*
+### Slide 1 — The story
+2021, training for my first marathon off a free spreadsheet. Two to three
+months in, I got hurt. I needed to adjust and rest — but didn't know how. I
+pushed through and got hurt worse.
 
-### Slide 2 —
-*...*
+### Slide 2 — The problem, generalized
+Not just me. Runners on rigid plans, or on algorithmic apps (e.g. Runna) that
+push volume aggressively, are stuck between "follow the plan blindly" and
+"know how to safely deviate" — and most don't know how.
 
-<!-- Keep it to ≤6 slides and ≤2 minutes. Note your media mix (live slides,
-embedded video, etc.) here if relevant. -->
+### Slide 3 — Whom
+Beginner marathoners. (Call out 1–4 marathons, no coach, verbally rather than
+on the slide.)
+
+### Slide 4 — Why now
+Marathon growth: Boston +9%, Chicago +12.2%, NYC +15.1% (2023 onward). Plus
+the shift from human coaches to algorithmic training apps (Strava, etc.) —
+more runners, more exposure to this exact failure mode.
+
+### Slide 5 — The takeaway
+Running is growing fast. Right now, there's no reliable way for runners to
+know how to safely adjust their training when their body tells them to.
+That's the opportunity.
+
+<!-- 5 slides, under the 6-slide cap. Keep delivery to ≤2 minutes total. -->
