@@ -50,18 +50,38 @@ anywhere in this file. Solutioning happens in Unit 2, as a team.
 
 *Your framework for assessing the list, and the top problem it produced.*
 
-*Vet each problem area against some sort of structured framework, then say which
-problem you are proceeding with and why. A common approach is a matrix scoring
-viability, feasibility and desirability — but the criteria and the scale (high /
-medium / low, 1–5, anything else) are your call, and choosing them well is part
-of the work.*
+Scored each problem area 1–5 on viability (would the customer pay to have it
+solved), feasibility (how tractable the problem itself is, independent of any
+solution), and desirability (how strongly the customer wants it solved).
 
-| Problem area | *criterion* | *criterion* | *criterion* | Notes |
-|---|---|---|---|---|
-|  |  |  |  |  |
+| # | Problem area | Viability | Feasibility | Desirability | Total | Notes |
+|---|---|---|---|---|---|---|
+| 1 | Beginner/intermediate runners — adaptive training plans | 4 | 4 | 4 | 12 | Clear willingness to pay (see Runna, existing paid apps); tractable coaching-logic problem |
+| 2 | Same runners — strength/mobility integration | 3 | 4 | 3 | 10 | Nice-to-have layered on #1, not standalone as strong |
+| 3 | Cyclists — bike recovery post-theft | 3 | 2 | 4 | 9 | High emotional pull but recovery is genuinely hard (fast resale, no universal ID system) |
+| 4 | Active people — non-synthetic performance apparel | 2 | 2 | 2 | 6 | Materials/supply-chain heavy; unclear premium willingness to pay |
+| 5 | Tattoo booking friction | 3 | 4 | 3 | 10 | Real pain, but niche market size questionable |
+| 6 | Corporate travel software UX | 2 | 2 | 2 | 6 | Feasibility low — compliance/admin constraints are structural; buyer is company, not employee |
+| 7 | Streaming vs. physical media ownership | 2 | 1 | 3 | 6 | Feasibility very low — fighting industry-wide licensing model |
+| 8 | Clothing discovery beyond known brands | 3 | 3 | 3 | 9 | Crowded space (Stitch Fix, etc.) |
+| 9 | Identifying celebrity outfit pieces | 2 | 3 | 3 | 8 | Crowded/hard IP-adjacent problem |
+| 10 | Styling guidance for a look | 2 | 3 | 2 | 7 | Similar to #9, weaker standalone |
+| 11 | New motorcycle riders — reliable info | 3 | 4 | 4 | 11 | Real gap, tractable as a content/community problem |
+| 12 | Uber lost-item recovery | 2 | 2 | 3 | 7 | Platform-dependent, hard to build around |
+| 13 | Finding which service streams a live game | 3 | 5 | 4 | 12 | Very tractable aggregation problem, decent desirability |
+| 14 | Finding a bathroom while out | 2 | 3 | 3 | 8 | Weak monetization; crowded map/utility space |
+| 15 | Sneaker drop/collab tracking | 3 | 4 | 4 | 11 | Enthusiast market, proven category |
+| 16 | Filtering useless reviews | 2 | 3 | 3 | 8 | Hard to monetize standalone; more of a feature |
+| 17 | Resale ticket price alerts | 3 | 4 | 4 | 11 | Tractable price-tracking problem, clear urgency |
+| 18 | Recipe + tweak tracking | 2 | 4 | 3 | 9 | Tractable but weak willingness-to-pay signal |
+| 19 | Consolidated headlines across subscriptions | 2 | 3 | 2 | 7 | Crowded aggregator space, no killer feature |
+| 20 | Local event discovery | 2 | 3 | 3 | 8 | Crowded space (Eventbrite, etc.), hard differentiation |
 
-**Top problem:** *the one you are proceeding with*
+**Top problem:** Beginner-to-intermediate half-marathon/marathon runners without a
+coach struggle to find training plans that adapt to their individual body and
+progress (#1).
 
-**Why this one:** *what the assessment showed. If your matrix produced a tie, say
-how you broke it — perceived likelihood of success, personal interest, project
-feasibility, market size, or any other rationale you find sensible.*
+**Why this one:** #1 tied with #13 (live-sports streaming finder) at 12 points.
+Broke the tie on personal interest and market size — the running/fitness app
+market is large and has demonstrated willingness to pay (Runna, other paid
+training apps), and it's a space I'm personally motivated to dig into further.
