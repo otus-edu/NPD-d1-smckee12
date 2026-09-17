@@ -33,15 +33,57 @@ race with confidence that training was done right, and training itself
 without the constant background fear of an injury building up unnoticed.
 
 ## 2. Customer insights
-*This section starts with an interview — 30 to 90 minutes with a prospective
-customer, held before you write anything here. Keep your notes or transcript in
-the repo as supporting material, and write this synthesis from that record rather
-than from memory. What did you actually hear? Include notable quotes.*
 
-**Interview:** *who you spoke with, their relationship to the problem, and where
-the transcript lives.*
+**Interview:** Mary, a friend and experienced marathoner (8 marathons: NYC,
+Philadelphia, Boston, London). Conducted as a text-message Q&A rather than a
+timed 30–90 minute conversation — a caveat on this interview's fit with the
+requirement, noted below. Full transcript: [marathon-interview-transcript.pdf](../notes/marathon-interview-transcript.pdf).
 
-> _"a notable customer quote"_ — interviewee, role
+**Caveats on this interview:**
+- **Format:** this was a fast, asynchronous text exchange rather than an
+  extended open-ended conversation. It surfaced real detail, but likely missed
+  the depth a live 30+ minute conversation would have drawn out.
+- **Persona fit:** Mary is a highly experienced, previously-coached runner —
+  not the beginner-to-intermediate, uncoached runner this problem targets. Her
+  pain points (course-specific training nuance, self-built Excel tracking,
+  managing training around a full life) are a more advanced version of the
+  target problem, not a direct match. Her insights are treated here as
+  directional, not as validation from the target persona.
+
+**What I actually heard:**
+- Early in her marathon career (no coach yet), she didn't know how to adjust
+  training and was "just trying to add two to three miles each week" to her
+  longest run — closely mirroring the target persona's stated pain point of
+  lacking the knowledge to safely adjust a plan.
+- Once she worked with a private coach, the plan became a living document she
+  updated weekly and the coach adjusted in response — i.e., real-time
+  adaptation to how training was actually going, not a static plan.
+- Injury surfaced repeatedly as a recurring, low-grade concern ("runner's
+  knee," a bone spur that stopped training 4 weeks out from Boston) rather
+  than a single one-time event — supporting the idea that ongoing signal
+  ("how am I feeling") matters more than a one-off adjustment.
+- She raised a training dimension I hadn't considered: **course-specific
+  training** (training for Boston's hills differs from training for a flat
+  course like NYC), and said this is a hard thing to convince beginners of.
+  This is a new, unanticipated insight — not something I was already assuming.
+- Confirmed the emotional/JTBD hypothesis unprompted: she explicitly said the
+  mental side of racing is underserved and would be "a win" if trained for
+  directly — before I explained what JTBD meant.
+- Flexibility came up as non-negotiable, but bounded — she wants to hit
+  mileage and avoid injury without a training plan taking over her entire
+  life.
+
+**Notable quotes:**
+
+> _"if there's a way to train some of the mental aspects of racing w this app
+> that you are thinking about.. i think that would be a win. bc the mental
+> aspect of it is a huge part, especially if it is your first marathon"_
+> — Mary
+
+> _"I think having flexible training plans is critical... however it is a
+> balancing act bc you still want to get your mileage in and be safe about it
+> but you also don't want to sacrifice your entire life to marathon
+> training"_ — Mary
 
 ## 3. Market sizing
 *Light TAM / SAM with your reasoning shown.*
