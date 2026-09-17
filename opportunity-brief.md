@@ -86,9 +86,16 @@ requirement, noted below. Full transcript: [marathon-interview-transcript.pdf](.
 > training"_ — Mary
 
 ## 3. Market sizing
-*Light TAM / SAM with your reasoning shown.*
+
+Scoped to full marathon finishers only (half-marathoners not included in this
+pass — likely makes this a conservative estimate given the problem also
+targets half-marathon runners).
 
 | Layer | Estimate | How you got there (sources) |
 |---|---|---|
-| TAM |  |  |
-| SAM |  |  |
+| TAM | ~$60M/year | ~500K US marathon finishers/year × ~$120/year (Runna's annual subscription price, used as a willingness-to-pay proxy for adaptive training plans). [Marathon finisher count](https://marathonhandbook.com/how-many-people-have-run-a-marathon/); [Runna pricing](https://www.runna.com/pricing) |
+| SAM | ~$30M/year | ~50% of US marathon finishers are first-time marathoners (~250K/year), used as a proxy for the beginner/intermediate, uncoached segment × ~$120/year. Same sources as above. |
+
+**Assumption called out:** "first-time marathoner" is used as a proxy for
+"beginner/intermediate, uncoached" — not a perfect match (a first-timer could
+still have a coach), but a reasonable stand-in given available data.
