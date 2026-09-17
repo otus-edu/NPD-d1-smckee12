@@ -6,15 +6,25 @@ submission.md. This draft is required regardless of how you render the deck. -->
 
 ## The case
 
-*Three things, in whatever form and order serves your problem best. Not a formal
-"problem statement" — just be clear about each.*
+**The problem:** Marathon runners training on today's plans are stuck with
+something that doesn't actually adjust to them — either a rigid, one-size-fits
+plan, or an algorithmic plan (e.g. Runna) that pushes volume/intensity
+aggressively enough to cause injury rather than adapting to how the runner's
+body is actually responding day to day.
 
-- **The problem** — what's broken, stated as your customer's problem (not as the
-  absence of a product).
-- **Whom** — a specific segment, not "everyone who…".
-- **Why it matters now** — what actually changed: technology, cost, regulation,
-  behaviour. This is a claim that could be wrong. If nothing changed, ask
-  yourself why nobody has solved this already.
+**Whom:** Runners who have completed 1–4 marathons — experienced enough to be
+past "just finishing," but without a human coach and without yet building the
+judgment to safely self-adjust a plan.
+
+**Why now:**
+- Marathon participation itself is growing quickly post-COVID: Boston is up 9%
+  (2023–2026), Chicago up 12.2% (2023–2025), and New York up 15.1% over the
+  same span — more people are exposed to this problem every year.
+  ([source](https://www.runnersworld.com/news/a71443345/us-marathon-majors-growing/))
+- Training itself has shifted from human coaches toward algorithmic apps
+  (Strava's rise as a training/tracking tool is one signal of this shift) —
+  which is exactly what has introduced the aggressive, non-adaptive algorithm
+  failure mode runners are now hitting.
 
 > **Do not name a solution.** This is discovery. A pitch that arrives at "so I'll
 > build an app that…" has skipped the part being assessed. If you find yourself
