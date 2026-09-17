@@ -42,7 +42,8 @@ anywhere in this file. Solutioning happens in Unit 2, as a team.
 15. Sneaker enthusiasts miss out on releases and collabs because there's no reliable, centralized way to track upcoming drops — they only find out after the fact or by chance, scattered across brand sites and social media.
 16. Online shoppers reading Amazon/Google reviews struggle to find genuinely useful product feedback, since reviews are cluttered with irrelevant complaints (shipping issues, seller problems) unrelated to the product itself.
 17. Concertgoers watching the resale ticket market want to know when prices drop to a target threshold, but have no way to set that intent and get notified — they have to manually keep checking sites like StubHub/SeatGeek themselves.
-18.
+18. Home cooks who find recipes online have no good way to track the recipe alongside the tweaks they've made across multiple attempts — modifications get lost in memory, scattered notes, or forgotten entirely.
+19.
 
 <!-- ...keep going to at least 20. -->
 
