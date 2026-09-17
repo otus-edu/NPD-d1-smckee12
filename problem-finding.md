@@ -35,7 +35,8 @@ anywhere in this file. Solutioning happens in Unit 2, as a team.
 8. Clothing shoppers who want to branch out beyond brands they already know (e.g. J. Crew) feel overwhelmed by the sheer number of options available, and lack a good starting point for discovering new brands that fit their taste.
 9. People who see a celebrity/influencer outfit online want to identify the specific pieces or find affordable equivalents, but have no easy way to do so, often left guessing or scrolling comments for "who makes this."
 10. People who see a celebrity/influencer outfit online and don't know how to style similar pieces themselves lack guidance on recreating the overall look, not just sourcing the individual items.
-11.
+11. New/aspiring motorcycle riders trying to learn how to get started struggle to find reliable, well-organized information online — the main resources available are outdated, broken, or low-trust forums, a decade behind the content quality other hobbies/industries have.
+12.
 
 <!-- ...keep going to at least 20. -->
 
