@@ -43,7 +43,8 @@ anywhere in this file. Solutioning happens in Unit 2, as a team.
 16. Online shoppers reading Amazon/Google reviews struggle to find genuinely useful product feedback, since reviews are cluttered with irrelevant complaints (shipping issues, seller problems) unrelated to the product itself.
 17. Concertgoers watching the resale ticket market want to know when prices drop to a target threshold, but have no way to set that intent and get notified — they have to manually keep checking sites like StubHub/SeatGeek themselves.
 18. Home cooks who find recipes online have no good way to track the recipe alongside the tweaks they've made across multiple attempts — modifications get lost in memory, scattered notes, or forgotten entirely.
-19.
+19. News readers who subscribe to multiple outlets have no consolidated way to see relevant headlines across all their subscriptions in one place — they have to check each outlet's app or site separately.
+20.
 
 <!-- ...keep going to at least 20. -->
 
