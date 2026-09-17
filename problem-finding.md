@@ -32,7 +32,8 @@ anywhere in this file. Solutioning happens in Unit 2, as a team.
 5. People seeking tattoos face an arduous booking process — many artists only open books sporadically via Instagram, requiring clients to monitor social media and submit applications, with no centralized or predictable way to find availability.
 6. Employees booking corporate travel face a clunky, dated booking experience — far worse than consumer tools like Google Flights — because the software is built around compliance and administrative requirements rather than the traveler's experience.
 7. Movie watchers and music listeners increasingly want permanent ownership of content, but streaming's rotating catalogs and subscription model leave them without a way to reliably keep access to what they love.
-8.
+8. Clothing shoppers who want to branch out beyond brands they already know (e.g. J. Crew) feel overwhelmed by the sheer number of options available, and lack a good starting point for discovering new brands that fit their taste.
+9.
 
 <!-- ...keep going to at least 20. -->
 
