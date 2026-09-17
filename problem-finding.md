@@ -40,7 +40,8 @@ anywhere in this file. Solutioning happens in Unit 2, as a team.
 13. Sports fans trying to watch a live NFL/NBA game struggle to figure out which streaming service is carrying it, since broadcast rights are fragmented across many platforms with no easy way to check beforehand.
 14. Runners (and others out in public) who suddenly need a bathroom struggle to find one nearby — public restrooms are sparse and undocumented, and there's no reliable way to know what's accessible in the moment.
 15. Sneaker enthusiasts miss out on releases and collabs because there's no reliable, centralized way to track upcoming drops — they only find out after the fact or by chance, scattered across brand sites and social media.
-16.
+16. Online shoppers reading Amazon/Google reviews struggle to find genuinely useful product feedback, since reviews are cluttered with irrelevant complaints (shipping issues, seller problems) unrelated to the product itself.
+17.
 
 <!-- ...keep going to at least 20. -->
 
