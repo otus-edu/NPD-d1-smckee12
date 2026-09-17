@@ -44,9 +44,7 @@ anywhere in this file. Solutioning happens in Unit 2, as a team.
 17. Concertgoers watching the resale ticket market want to know when prices drop to a target threshold, but have no way to set that intent and get notified — they have to manually keep checking sites like StubHub/SeatGeek themselves.
 18. Home cooks who find recipes online have no good way to track the recipe alongside the tweaks they've made across multiple attempts — modifications get lost in memory, scattered notes, or forgotten entirely.
 19. News readers who subscribe to multiple outlets have no consolidated way to see relevant headlines across all their subscriptions in one place — they have to check each outlet's app or site separately.
-20.
-
-<!-- ...keep going to at least 20. -->
+20. People looking for local events (concerts, pop-ups, meetups, etc.) often only hear about them after they've already happened, since there's no reliable, centralized way to discover what's happening nearby ahead of time.
 
 ## 2. Problem vetting
 
