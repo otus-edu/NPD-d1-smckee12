@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// OTUS-MANAGED — do not edit. An instructor resync overwrites this file,
+// and a local change here silently stops transcript capture.
 // OTUS capture transcript filter — normalized transcript contract v1 (Claude Code side).
 //
 // Why this exists
@@ -41,6 +43,7 @@
 // observation only and must never block or slow the student's turn.
 
 import { readFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 
 // Truncation caps. Prose is what coaching reads, so it gets room; tool traffic
 // only needs to show WHAT ran and whether it worked, not its full payload.
@@ -182,7 +185,19 @@ async function main() {
 }
 
 // Only run when invoked directly, so tests can import the filter.
-if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
+//
+// Compare as URLs. Do NOT string-concatenate a path onto "file://":
+// `import.meta.url` percent-encodes, so a single SPACE in the checkout path
+// makes it `...My%20Repo...` while the concatenated form has a literal space;
+// and on Windows `import.meta.url` is `file:///C:/x` where `process.argv[1]`
+// is `C:\x`. Either way the naive comparison is false, and a false guard here
+// FAILS SILENTLY: main() never runs, node exits 0 with no stdout, and
+// capture.sh's `! -s` branch falls back to POSTing the raw transcript --
+// roughly 25x the bytes this filter exists to avoid. That made the filter a
+// no-op for every Windows checkout and for any path containing a space.
+// Truth table (plain path / space in path / symlinked dir) is pinned in
+// tests/test_capture_filter.py.
+if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) {
   main().catch((error) => {
     process.stderr.write(String(error?.message ?? error) + "\n");
     process.exitCode = 1;
