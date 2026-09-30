@@ -6,7 +6,7 @@
 Paste the link to your pitch deck or recording below — your choice of medium
 (a Google Slides link, a deployed reveal.js/Marp deck, or a recording).
 
-Presentation: _paste your link here_
+Presentation: https://docs.google.com/presentation/d/1KlixXlAP46qUIOLq0zK6vNbnRo0kkcZiS6v32eTu6pg/edit
 
 ## Notes
-_Anything the reviewer should know about how you approached D1._
+This is a consolidated class presentation; my slides are 146–151.
